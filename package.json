@@ -1,10 +1,11 @@
 {
   "name": "mvc_design",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a burger logger which allows you to choose to eat or throw up a gross burger. you also have the option of creating a new burger and deciding whether it will be gross or yummy. You also have the option to delete the burger from the list of options.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,13 @@
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plabounty/10_Burger_Logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Plabounty/10_Burger_Logger/issues"
+  },
+  "homepage": "https://github.com/Plabounty/10_Burger_Logger#readme"
 }
